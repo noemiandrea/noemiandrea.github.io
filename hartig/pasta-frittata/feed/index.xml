@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Reacties op: Pasta Frittata	</title>
+	<atom:link href="/hartig/pasta-frittata/feed/" rel="self" type="application/rss+xml" />
+	<link>/hartig/pasta-frittata/</link>
+	<description>Tarwe &#38; Lactose vrije Recepten</description>
+	<lastBuildDate>Thu, 25 Jun 2020 13:28:57 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		Door: Noëmí Andrea		</title>
+		<link>/hartig/pasta-frittata/#comment-45</link>
+
+		<dc:creator><![CDATA[Noëmí Andrea]]></dc:creator>
+		<pubDate>Thu, 25 Jun 2020 13:28:57 +0000</pubDate>
+		<guid isPermaLink="false">http://www.noemiandrea.nl/?p=604#comment-45</guid>
+
+					<description><![CDATA[In antwoord op &lt;a href=&quot;/hartig/pasta-frittata/#comment-44&quot;&gt;Tabita&lt;/a&gt;.
+
+Dankje zus! Ben benieuwd wat jullie er van vinden :D.]]></description>
+			<content:encoded><![CDATA[<p>In antwoord op <a href="/hartig/pasta-frittata/#comment-44">Tabita</a>.</p>
+<p>Dankje zus! Ben benieuwd wat jullie er van vinden :D.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Door: Tabita		</title>
+		<link>/hartig/pasta-frittata/#comment-44</link>
+
+		<dc:creator><![CDATA[Tabita]]></dc:creator>
+		<pubDate>Thu, 25 Jun 2020 12:57:04 +0000</pubDate>
+		<guid isPermaLink="false">http://www.noemiandrea.nl/?p=604#comment-44</guid>
+
+					<description><![CDATA[Ziet er weer heerlijk uit zusje, ga het zeker een keertje maken!!!]]></description>
+			<content:encoded><![CDATA[<p>Ziet er weer heerlijk uit zusje, ga het zeker een keertje maken!!!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

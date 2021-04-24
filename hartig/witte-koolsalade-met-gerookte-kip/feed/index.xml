@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Reacties op: Witte Koolsalade met gerookte kip	</title>
+	<atom:link href="/hartig/witte-koolsalade-met-gerookte-kip/feed/" rel="self" type="application/rss+xml" />
+	<link>/hartig/witte-koolsalade-met-gerookte-kip/</link>
+	<description>Tarwe &#38; Lactose vrije Recepten</description>
+	<lastBuildDate>Thu, 27 Aug 2020 11:34:15 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+</channel>
+</rss>

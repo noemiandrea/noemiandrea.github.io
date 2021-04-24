@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Reacties op: Palta Pasta	</title>
+	<atom:link href="/hartige-recepten/palta-pasta/feed/" rel="self" type="application/rss+xml" />
+	<link>/hartige-recepten/palta-pasta/</link>
+	<description>Tarwe &#38; Lactose vrije Recepten</description>
+	<lastBuildDate>Wed, 30 May 2018 07:16:42 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		Door: admin		</title>
+		<link>/hartige-recepten/palta-pasta/#comment-8</link>
+
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 30 May 2018 07:16:42 +0000</pubDate>
+		<guid isPermaLink="false">http://www.noemiandrea.nl/?p=150#comment-8</guid>
+
+					<description><![CDATA[In antwoord op &lt;a href=&quot;/hartige-recepten/palta-pasta/#comment-6&quot;&gt;mam&lt;/a&gt;.
+
+&lt;3 dankjewel mam!]]></description>
+			<content:encoded><![CDATA[<p>In antwoord op <a href="/hartige-recepten/palta-pasta/#comment-6">mam</a>.</p>
+<p>&lt;3 dankjewel mam!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Door: mam		</title>
+		<link>/hartige-recepten/palta-pasta/#comment-6</link>
+
+		<dc:creator><![CDATA[mam]]></dc:creator>
+		<pubDate>Wed, 23 May 2018 22:16:19 +0000</pubDate>
+		<guid isPermaLink="false">http://www.noemiandrea.nl/?p=150#comment-6</guid>
+
+					<description><![CDATA[De foto&#039;s zien er superleuk  en lekker uit.
+Ga de recepten zeker proberen als we weer thuis zijn :-)
+Ga zo door! Supertrots op je!]]></description>
+			<content:encoded><![CDATA[<p>De foto&#8217;s zien er superleuk  en lekker uit.<br />
+Ga de recepten zeker proberen als we weer thuis zijn 🙂<br />
+Ga zo door! Supertrots op je!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

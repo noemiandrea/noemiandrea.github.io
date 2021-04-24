@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Reacties op: Kruidnoten fudge	</title>
+	<atom:link href="/zoete-recepten/kruidnoten-fudge/feed/" rel="self" type="application/rss+xml" />
+	<link>/zoete-recepten/kruidnoten-fudge/</link>
+	<description>Tarwe &#38; Lactose vrije Recepten</description>
+	<lastBuildDate>Tue, 11 Dec 2018 10:37:35 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>
+		Door: Noëmí Andrea		</title>
+		<link>/zoete-recepten/kruidnoten-fudge/#comment-16</link>
+
+		<dc:creator><![CDATA[Noëmí Andrea]]></dc:creator>
+		<pubDate>Tue, 11 Dec 2018 10:37:35 +0000</pubDate>
+		<guid isPermaLink="false">http://www.noemiandrea.nl/?p=369#comment-16</guid>
+
+					<description><![CDATA[In antwoord op &lt;a href=&quot;/zoete-recepten/kruidnoten-fudge/#comment-15&quot;&gt;Renate&lt;/a&gt;.
+
+@Renate :D]]></description>
+			<content:encoded><![CDATA[<p>In antwoord op <a href="/zoete-recepten/kruidnoten-fudge/#comment-15">Renate</a>.</p>
+<p>@Renate 😀</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Door: Renate		</title>
+		<link>/zoete-recepten/kruidnoten-fudge/#comment-15</link>
+
+		<dc:creator><![CDATA[Renate]]></dc:creator>
+		<pubDate>Thu, 29 Nov 2018 15:12:38 +0000</pubDate>
+		<guid isPermaLink="false">http://www.noemiandrea.nl/?p=369#comment-15</guid>
+
+					<description><![CDATA[Eens met je moeder! ;)]]></description>
+			<content:encoded><![CDATA[<p>Eens met je moeder! 😉</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Door: Mam		</title>
+		<link>/zoete-recepten/kruidnoten-fudge/#comment-14</link>
+
+		<dc:creator><![CDATA[Mam]]></dc:creator>
+		<pubDate>Wed, 21 Nov 2018 08:16:58 +0000</pubDate>
+		<guid isPermaLink="false">http://www.noemiandrea.nl/?p=369#comment-14</guid>
+
+					<description><![CDATA[En hij was lekker!!!!!]]></description>
+			<content:encoded><![CDATA[<p>En hij was lekker!!!!!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
