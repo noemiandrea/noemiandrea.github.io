@@ -10,6 +10,7 @@
     "test": "jest",
     "build": "node scripts/build.js",
     "dev": "node scripts/dev.js",
+    "demo": "node demo.js",
     "lint": "eslint src/"
   },
   "keywords": [

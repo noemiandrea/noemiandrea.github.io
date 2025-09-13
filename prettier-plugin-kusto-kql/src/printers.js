@@ -1,25 +1,6 @@
 const { NODE_TYPES } = require('./parsers');
 
 /**
- * Simple document builders for formatting
- */
-const doc = {
-  concat: (...args) => args.flat().join(''),
-  join: (sep, items) => items.join(sep),
-  line: '\n',
-  softline: ' ',
-  hardline: '\n',
-  group: (content) => Array.isArray(content) ? content.join('') : content,
-  indent: (content) => {
-    const text = Array.isArray(content) ? content.join('') : content;
-    return text.split('\n').map(line => line ? '  ' + line : line).join('\n');
-  },
-  dedent: (content) => Array.isArray(content) ? content.join('') : content,
-  ifBreak: (breaking, flat) => flat || breaking,
-  breakParent: '',
-};
-
-/**
  * Format KQL operators with proper spacing and indentation
  */
 function formatOperator(node, options) {
@@ -36,7 +17,7 @@ function formatOperator(node, options) {
     // Check if expression contains commas (multiple items)
     if (expression.includes(',')) {
       const items = expression.split(',').map(item => item.trim());
-      return operator + doc.indent(doc.line + doc.join(',' + doc.line, items));
+      return operator + '\n    ' + items.join(',\n    ');
     }
   }
   
@@ -71,9 +52,9 @@ function formatQuery(node, options) {
   }
   
   return formattedSegments[0] + 
-    doc.indent(formattedSegments.slice(1).map(segment => 
-      doc.line + '| ' + segment
-    ).join(''));
+    formattedSegments.slice(1).map(segment => 
+      '\n| ' + segment
+    ).join('');
 }
 
 /**
@@ -103,13 +84,20 @@ function print(path, options, print) {
   switch (node.type) {
     case NODE_TYPES.PROGRAM:
       const bodyResults = [];
-      if (node.body && node.body.length > 0) {
+      if (node.body && Array.isArray(node.body)) {
         for (const item of node.body) {
-          const mockPath = { getValue: () => item };
-          bodyResults.push(print(mockPath, options, print));
+          if (item.type === NODE_TYPES.QUERY) {
+            bodyResults.push(formatQuery(item, options));
+          } else if (item.type === NODE_TYPES.COMMENT) {
+            bodyResults.push(formatComment(item, options));
+          } else if (item.type === NODE_TYPES.EXPRESSION) {
+            bodyResults.push(formatExpression(item, options));
+          } else {
+            bodyResults.push(item.raw || item.value || '');
+          }
         }
       }
-      return bodyResults.join(doc.hardline) + doc.hardline;
+      return bodyResults.join('\n') + '\n';
       
     case NODE_TYPES.QUERY:
       return formatQuery(node, options);
