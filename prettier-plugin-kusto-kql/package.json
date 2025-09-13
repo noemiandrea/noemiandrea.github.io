@@ -1,0 +1,38 @@
+{
+  "name": "prettier-plugin-kusto-kql",
+  "version": "1.0.0",
+  "description": "A Prettier plugin for formatting Kusto Query Language (KQL) code",
+  "main": "src/index.js",
+  "files": [
+    "src/"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "node scripts/build.js",
+    "dev": "node scripts/dev.js",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "prettier",
+    "plugin",
+    "kusto",
+    "kql",
+    "formatter",
+    "azure",
+    "data-explorer"
+  ],
+  "author": "noemiandrea",
+  "license": "MIT",
+  "peerDependencies": {
+    "prettier": ">=2.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  },
+  "dependencies": {},
+  "optionalDependencies": {
+    "@kusto/monaco-kusto": "^7.0.0"
+  }
+}
