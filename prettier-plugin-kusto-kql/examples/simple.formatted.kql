@@ -1,0 +1,3 @@
+StormEvents
+| where State == "TEXAS"
+| take 10

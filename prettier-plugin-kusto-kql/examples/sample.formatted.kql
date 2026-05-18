@@ -1,0 +1,66 @@
+// Sample KQL queries for testing the prettier plugin
+// Simple table query
+StormEvents
+| take 10
+// Query with where clause
+StormEvents
+| where State=="TEXAS"
+| take 5
+// Complex query with multiple operators
+StormEvents
+| where StartTime >= datetime(2007-01-01) and StartTime < datetime(2007-02-01)
+| where State == "FLORIDA"
+| project
+    StartTime,
+    EndTime,
+    State,
+    EventType,
+    DamageProperty
+| summarize
+    TotalDamage=sum(DamageProperty) by State,
+    EventType
+| order by TotalDamage desc
+| take 10
+// Query with summarize and multiple aggregations
+StormEvents
+| where StartTime >= datetime(2007-01-01)
+| summarize
+| undefined
+| undefined
+| undefined
+| undefined
+| order by TotalDamage desc
+// Query with join
+StormEvents
+| where State == "TEXAS"
+| project
+    State,
+    EventType,
+    DamageProperty
+| join kind=inner (
+| undefined
+| project
+    State,
+    Population
+| undefined
+| extend DamagePerCapita = DamageProperty / Population
+// Query with union
+union
+| undefined
+| where EventType == "Tornado"),
+| undefined
+| where EventType == "Hurricane")
+| summarize count() by EventType
+// Comments and complex formatting
+// This is a comment
+StormEvents
+| where State in ("TEXAS", "FLORIDA", "CALIFORNIA") // Filter by states
+| extend IsMajorEvent = DamageProperty > 1000000 // Flag major events
+| project
+    StartTime,
+    State,
+    EventType,
+    IsMajorEvent,
+    DamageProperty
+| order by DamageProperty desc
+| take 20

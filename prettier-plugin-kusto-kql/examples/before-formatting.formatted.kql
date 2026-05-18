@@ -1,0 +1,29 @@
+// Before formatting (messy KQL)
+StormEvents
+| where State=="TEXAS"
+| project
+    State,
+    EventType,
+    DamageProperty
+| summarize
+    TotalDamage=sum(DamageProperty),
+    EventCount=count() by EventType
+| order by TotalDamage desc
+| take 10
+// Complex join example
+StormEvents
+| where State in("TEXAS","FLORIDA","CALIFORNIA")
+| project
+    State,
+    EventType,
+    DamageProperty
+| join kind=inner(PopulationData
+| project
+    State,
+    Population) on State
+| extend DamagePerCapita=DamageProperty/Population
+// Union with multiple datasets
+union(StormEvents
+| where EventType=="Tornado"),(StormEvents
+| where EventType=="Hurricane")
+| summarize count() by EventType
